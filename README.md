@@ -89,11 +89,6 @@ To compare algorithms, just open a different `webots/<algo>/worlds/Towbot.wbt`. 
 python prototypes/algorithm_visualizer.py
 ```
 
-## Roadmap
-
-- [ ] Replace the hand-coded perimeter sweep with frontier-based exploration
-- [ ] Add Hybrid A\* / kinodynamic planning to respect the trailer's turning radius
-
 ## License
 
 [MIT](LICENSE)
