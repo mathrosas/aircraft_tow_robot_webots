@@ -1,0 +1,38 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+
+# --- Webots ---
+# Per-user Webots project state (auto-regenerated when opening worlds)
+**/.*.wbproj
+*.wbproj.bak
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Large binaries ---
+*.mp4
+*.mov
+*.avi
+
+# --- Generated artifacts ---
+# Each algorithm folder ships its own cspace.npy so the simulation runs
+# out of the box without the long mapping phase. Uncomment if you want
+# users to regenerate the map themselves:
+# **/cspace.npy
